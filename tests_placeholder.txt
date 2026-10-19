@@ -1,0 +1,4 @@
+Automated regression tests are in tests/test_detection.py.
+Run from the project folder with:
+  python -m unittest discover -s tests -v
+The tests need pandas; they do not require the Streamlit UI to run.
