@@ -1,5 +1,25 @@
 .venv/
+venv/
 __pycache__/
+.pytest_cache/
 *.py[cod]
-.streamlit/
+.streamlit/secrets.toml
 .DS_Store
+
+
+# Local databases and investigation data
+*.db
+*.sqlite
+*.sqlite3
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Python test and coverage artifacts
+.coverage
+htmlcov/
